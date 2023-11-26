@@ -115,3 +115,14 @@ p {
     background-color: rgba(255, 255, 255, 0.768);   
     padding-left: 80px;
 }
+
+.arrow {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 40px solid rgb(58, 215, 229);
+    animation: bounce 2s infinite;
+    margin: 0 0 0 20px;
+}
