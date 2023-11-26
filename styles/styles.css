@@ -1,0 +1,117 @@
+
+
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgb(58, 215, 229);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+ .line {
+   
+    margin: 10px 0; 
+}
+
+
+.registration-form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+
+
+.menu {
+    position: absolute;
+
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.submenu {
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+    width: 100px;
+}
+
+.submenu li a {
+    text-decoration: none;
+    color: #333;
+}   
+
+.scroll-to-top {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 99;
+    border: none;
+    background-color: rgba(0, 123, 255, 0.5); 
+    color: rgba(255, 255, 255, 0.7); 
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.scroll-to-top img {
+    width: 30px; 
+    height: auto;
+    opacity: 0.7;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    max-width: 400px;
+    max-height: 600px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.768);   
+    padding-left: 80px;
+}

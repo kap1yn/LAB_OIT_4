@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .headerr {
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 660px) {
+    .headerr {
+        width: 330px;
+    }
+
+}
+
+@media (max-width: 568px) {
+    .headerr {
+        max-width: 200px;
+    }
+
+}
+
+@media (max-width: 378px) {
+    .headerr {
+        max-width: 120px;
+    }
+
+}
